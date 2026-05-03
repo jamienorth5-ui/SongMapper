@@ -1,6 +1,9 @@
 export default {
-  plugins: {
-    tailwindcss: {},
-    autoprefixer: {},
+  "compilerOptions": {
+    "baseUrl": ".",
+    "paths": {
+      "@/*": ["./src/*"]
+    }
   },
+  "exclude": ["node_modules"]
 }
